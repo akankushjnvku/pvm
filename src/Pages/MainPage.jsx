@@ -66,7 +66,7 @@ const MainPage = ({ sectionRefs }) => {
         <h2 className="text-2xl font-bold mb-4">
           WELCOME to Prahlada’s webpage!
         </h2>
-        <p className="text-gray-900 mb-4">
+        <p className="text-justify text-gray-900 mb-4">
           I'm a final year Integrated Masters (B.Tech. + M. Tech.) student
           at the 
           <a href="https://www.iitr.ac.in/"
@@ -96,7 +96,7 @@ const MainPage = ({ sectionRefs }) => {
           is driven by my career goal which is to be a teacher and an active
           researcher.
         </p>
-        <p className="text-gray-900">
+        <p className="text-justify text-gray-900">
           In order to work towards my interests, I strongly wish to secure a
           Doctorate position in a research group that aligns with my field of
           interests and is passionate about research. Research excites me as it
@@ -324,7 +324,7 @@ const MainPage = ({ sectionRefs }) => {
                   {/* <div className="flex items-center justify-center gap-3"> */}{" "}
                   
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Population-based damage assessment using remote sensing data
                     is crucial in disaster management. This paper presents an
                     unsupervised density-based clustering algorithm for damage
@@ -341,7 +341,7 @@ const MainPage = ({ sectionRefs }) => {
                   {/* </div> */}
                   {/* <div className="flex items-center justify-center gap-3"> */}
                   
-                  <p className="text-gray-600 sm:text-lg mt-2 text-lg">
+                  <p className="text-justify text-gray-600 sm:text-lg mt-2 text-lg">
                     In our work, we present an unsupervised density-based
                     clustering algorithm that automatically makes spatial groups
                     of affected regions and assigns the label based on the
@@ -357,7 +357,7 @@ const MainPage = ({ sectionRefs }) => {
                   />
                   
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The algorithm automatically selects the optimum number of
                     clusters based on the spatial distribution of the data and
                     works well with any shape of the hazard-affected region. The
@@ -374,7 +374,7 @@ const MainPage = ({ sectionRefs }) => {
                   {/* </div>
                 <div className="flex items-center justify-center gap-3"> */}
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The navigation information is provided with aid of Google
                     maps depicting the overall damage along with possibility of
                     transportation as shown below.
@@ -413,7 +413,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="First photo of second Research paper"
                     className="w-full h-auto sm:w-2/3 rounded shadow-lg mt-4"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Satellite technology has emerged as a key tool for effective
                     management and assessment of natural disasters. However, the
                     challenge of accurately estimating impacted populations and
@@ -427,7 +427,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="First photo of second Research paper"
                     className="w-full h-auto sm:w-4.5/8 rounded shadow-lg mt-4"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The sentiment analysis component categorizes
                     disaster-affected individuals' emotions as panic, neutral,
                     or non-panic. We also introduced an Aid analysis model for
@@ -442,7 +442,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="First photo of second Research paper"
                     className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     An important aspect of the research was aid-analysis which
                     could be very useful to the aid-providing organizations and
                     government to provide specialized and focused aid. The
@@ -469,7 +469,7 @@ const MainPage = ({ sectionRefs }) => {
                 {/* Images for Second Research Paper */}
                 <div>
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                   Climate change is an escalating global crisis with far-reaching 
                   consequences that extend to every facet of the natural and human 
                   world. One of the most pressing dimensions of climate change is 
@@ -488,7 +488,7 @@ const MainPage = ({ sectionRefs }) => {
                   />
 
             
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                   We systematically labelled these queries with 27 distinct 
                   categories using our N-gram AgriLogic Framework, ensuring 
                   each was scientifically accurate and relevant. To provide 
@@ -505,7 +505,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="Third photo of third Research paper"
                     className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                   Our data analysis highlighted the drastic impact of extreme 
                   weather events, such as intense rainfall and hail. We also 
                   performed a temporal analysis, which illuminated the complex 
@@ -519,7 +519,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-4.5/8 rounded mt-4 shadow-lg"
                   />
 
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                   The overall flow of the paper can be seen in the figure below. 
 
                   </p>
@@ -529,7 +529,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
 
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                   Overall, the research offers a comprehensive framework for 
                   forecasting and countering the detrimental effects of 
                   climatic challenges on apple cultivation, enhancing the 
@@ -567,7 +567,7 @@ const MainPage = ({ sectionRefs }) => {
                 {/* Images for Conference 1 */}
                 <div>
                
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Satellite-based natural disaster management and assessment
                     are prevalent.
                   </p>
@@ -578,7 +578,7 @@ const MainPage = ({ sectionRefs }) => {
                   />
 
                
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     A significant hurdle is faced in estimating the population
                     affected as well as the internal damage of buildings which
                     cannot be assessed from the top. Social media images and
@@ -594,7 +594,7 @@ const MainPage = ({ sectionRefs }) => {
                   />
 
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The sentiment analysis gave us information about the panic
                     situation among the people.
                   </p>
@@ -605,7 +605,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-2/3 rounded mt-4 shadow-lg"
                   />
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     We also performed clustering using the DBSCAN algorithm. The
                     following figure represents the spatial distribution of
                     instances within each cluster offering insights into the
@@ -637,7 +637,7 @@ const MainPage = ({ sectionRefs }) => {
                 {/* Images for Conference 2 */}
                 <div>
                  
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     In pursuit of a comprehensive analysis of groundwater
                     dynamics in the state of Uttar Pradesh, India, we integrated
                     GRACE satellite data, which is continuous and available
@@ -655,7 +655,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Moreover, the groundwater monitoring is done only twice a
                     year. So, in this paper, we tried to find correlations and
                     hidden relationships using ML between the GRACE and GWL data
@@ -692,7 +692,7 @@ const MainPage = ({ sectionRefs }) => {
                 {/* Images for Conference 3 */}
                 <div>
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The monitoring of global mass variations has undergone a
                     transformative evolution with the implementation of the
                     Gravity Recovery and Climate Experiment (GRACE) and its
@@ -711,7 +711,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     We aimed to bridge the data gap between these two missions
                     and assess the groundwater storage variations (GWSA) in the
                     state of Uttar Pradesh, India. We used GRACE satellite data,
@@ -752,7 +752,7 @@ const MainPage = ({ sectionRefs }) => {
                 </p>
                 <div>
           
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The topographical shape of the Earth is primarily influenced
                     by density variations within the crust and elastic
                     deformation of the lithosphere. However, a significant
@@ -768,7 +768,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
           
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Thus, dynamic topography can be used to get information
                     about the temperature and viscosity of the mantle. Using
                     Stokes equations, energy equations and numerical methods
@@ -783,7 +783,7 @@ const MainPage = ({ sectionRefs }) => {
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
                
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Then we compare this synthetic model with real-earth model
                     to derive adjoint sensitivities with respect to density and
                     viscosity. Then, we can invert for mantle properties, thus
@@ -811,7 +811,7 @@ const MainPage = ({ sectionRefs }) => {
                 </p>
                 <div>
             
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The prediction of volcanic eruptions and the evaluation of
                     associated risks remain a timely and unresolved issue. We
                     tried to work on a methodology to classify seismic events
@@ -831,7 +831,7 @@ const MainPage = ({ sectionRefs }) => {
                   />
 
                   
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     A DBScan cluster result based on some major features.
                   </p>
                   <img
@@ -856,7 +856,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="First photo of Project 3"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The central aim of Super-Resolution (SR) is to generate a
                     higher resolution image from lower resolution images. High
                     resolution image offers a high pixel density and thereby
@@ -877,7 +877,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="Third photo of Project 3"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     We also analyzed the image quality metrics using PSNR (Peak
                     Signal to Noise Ratio), MSE (Mean Squared Error) and SSIM
                     (Structural Similarity Index). The basic structure of the
@@ -891,7 +891,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="Fourth photo of Project 3"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     Here are some results on images we tried the model.
                   </p>
                 </div>
@@ -908,7 +908,7 @@ const MainPage = ({ sectionRefs }) => {
                 </p>
                 <div>
                  
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     The HFT is a major tectonic boundary in the Himalayan
                     Mountain range that separates the Indian subcontinent from
                     the Himalayan foothills. The task in this project was to
@@ -928,7 +928,7 @@ const MainPage = ({ sectionRefs }) => {
 
 
           
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     To analyse the gravity survey data, we applied a few gravity
                     corrections such as drift correction, free-air correction
                     and bouger correction. Some of the results we got based on
@@ -974,7 +974,7 @@ const MainPage = ({ sectionRefs }) => {
                     alt="First photo of Project 5"
                     className="w-full h-auto sm:w-1/2 rounded mt-4 shadow-lg"
                   />
-                  <p className="text-gray-600 text-lg mt-2">
+                  <p className="text-justify text-gray-600 text-lg mt-2">
                     In this project and field training, we used Radio
                     Magnetotellurics (RMT) and Transient Electromagnetic (TEM)
                     methods were to study the Himalayan Frontal Thrust (HFT)

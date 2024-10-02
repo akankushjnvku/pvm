@@ -29,7 +29,7 @@ const Profile = () => {
       </h2>
 
       {/* Links */}
-      <div className="space-y-3 px-2">
+      <div className="space-y-1 px-2">
       <a
           href="https://www.linkedin.com/in/prahlada-mittal"
           className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-700"
@@ -56,7 +56,7 @@ const Profile = () => {
 
         <a
           href="https://github.com/prahlad-mittal"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-gray-800"
+          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-rose-800"
         >
           <FaGithub />
           <span>Github</span>
@@ -64,7 +64,7 @@ const Profile = () => {
 
         <a
           href="https://orcid.org/0000-0002-9799-0607"
-          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-green-500"
+          className="flex items-center justify-center space-x-2 text-gray-700 hover:text-yellow-500"
         >
           <FaBookAtlas />
           <span>ORCID</span>

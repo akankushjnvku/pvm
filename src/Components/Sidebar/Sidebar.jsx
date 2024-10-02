@@ -3,11 +3,11 @@ import React from "react";
 const Sidebar = ({ activeSection }) => {
   return (
     <div className="w-full md:w-60 bg-gray-800 text-white p-5 rounded-lg md:mb-0 shadow-lg">
-      <ul className="space-y-4">
+      <ul className="space-y-2">
         <li>
           <a
             href="#about"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "about" ? "underline font-bold" : ""
             }`}
           >
@@ -17,7 +17,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#education"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "education" ? "underline font-bold" : ""
             }`}
           >
@@ -27,7 +27,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#technicalSkills"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "technicalSkills" ? "underline font-bold" : ""
             }`}
           >
@@ -37,7 +37,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#researchExperience"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-0.6 rounded hover:bg-gray-700 ${
               activeSection === "researchExperience"
                 ? "font-bold underline"
                 : ""
@@ -49,7 +49,7 @@ const Sidebar = ({ activeSection }) => {
             <li>
               <a
                 href="#journalPapers"
-                className={`block p-2 ml-3 hover:bg-gray-600 rounded ${
+                className={`block p-0.4 ml-3 hover:bg-gray-600 rounded ${
                   activeSection === "journalPapers" ? "font-bold underline" : ""
                 }`}
               >
@@ -59,7 +59,7 @@ const Sidebar = ({ activeSection }) => {
             <li>
               <a
                 href="#conferences"
-                className={`block p-2 ml-3 hover:bg-gray-600 rounded ${
+                className={`block p-0.4 ml-3 hover:bg-gray-600 rounded ${
                   activeSection === "conferences" ? "font-bold underline" : ""
                 }`}
               >
@@ -69,7 +69,7 @@ const Sidebar = ({ activeSection }) => {
             <li>
               <a
                 href="#researchProjects"
-                className={`block p-2 ml-3 hover:bg-gray-600 rounded ${
+                className={`block p-0.4 ml-3 hover:bg-gray-600 rounded ${
                   activeSection === "researchProjects"
                     ? "font-bold underline"
                     : ""
@@ -83,7 +83,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#achievements"
-            className={`block p-2 hover:bg-gray-700 rounded ${
+            className={`block p-1 hover:bg-gray-700 rounded ${
               activeSection === "achievements" ? "font-bold underline" : ""
             }`}
           >
@@ -94,7 +94,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#courses"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "courses" ? "font-bold underline" : ""
             }`}
           >
@@ -104,7 +104,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#teachingMentorshipExperience"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "teachingMentorshipExperience"
                 ? "font-bold underline"
                 : ""
@@ -116,7 +116,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#extraCurricular"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "extraCurricular" ? "font-bold underline" : ""
             }`}
           >
@@ -126,7 +126,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#references"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "references" ? "font-bold underline" : ""
             }`}
           >
@@ -136,7 +136,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#curriculum"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "curriculum" ? "font-bold underline" : ""
             }`}
           >
@@ -146,7 +146,7 @@ const Sidebar = ({ activeSection }) => {
         <li>
           <a
             href="#contact"
-            className={`block p-2 rounded hover:bg-gray-700 ${
+            className={`block p-1 rounded hover:bg-gray-700 ${
               activeSection === "contact" ? "font-bold underline" : ""
             }`}
           >
