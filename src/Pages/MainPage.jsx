@@ -163,7 +163,7 @@ const MainPage = ({ sectionRefs }) => {
             <p className="text-gray-700">
               Integrated Masters (B.Tech + M.Tech) in Geophysical Technology
             </p>
-            <p className="text-gray-700">CGPA – 8.72/10 (Within Top 15%)</p>
+            <p className="text-gray-700">CGPA – 8.75/10 (Within Top 10%)</p>
             <a
               href={iitTranscript}
               donwload
@@ -254,7 +254,7 @@ const MainPage = ({ sectionRefs }) => {
           <div className="border-l-4 border-green-500 pl-4">
             <h4 className="font-semibold text-xl mb-2">Softwares and Tools</h4>
             <p className="text-gray-700">
-              Firedrake, Para-view, Jupyter Notebook, MS Azure, LATEX, Excel,
+              Firedrake, Para-view, Jupyter Notebook, MS Azure, VSCode, LATEX, Excel,
               Orange
             </p>
           </div>
@@ -1158,7 +1158,7 @@ const MainPage = ({ sectionRefs }) => {
         className="mb-12"
       >
         <h3 className="text-2xl font-bold text-gray-900 mb-4">
-          Extra-Curricular Activities
+        Sports and Community Participation
         </h3>
         <div className="space-y-6 text-gray-800">
           <div className="border-l-4 border-blue-500 pl-4">
@@ -1256,7 +1256,7 @@ const MainPage = ({ sectionRefs }) => {
           {/* Reference 2 */}
           <div className="bg-gray-100 p-6 shadow-md rounded-lg">
             <p className="text-xl font-bold text-gray-900 mb-2">
-              2. Dr. Pitambar Pati
+              2. Dr Ravi Sharma
             </p>
             <p className="text-gray-800 mb-1">
               Associate Professor, Department of Earth Sciences, IIT Roorkee,
@@ -1264,7 +1264,7 @@ const MainPage = ({ sectionRefs }) => {
             </p>
             <p className="flex items-center mb-1">
               <MdEmail className="mr-2 text-blue-500" />
-              <span className="text-gray-700">pitambar.pati@es.iitr.ac.in</span>
+              <span className="text-gray-700">ravi.sharma@es.iitr.ac.in</span>
             </p>
             <p className="flex items-center mb-1">
               <MdPhone className="mr-2 text-green-500" />
@@ -1273,7 +1273,7 @@ const MainPage = ({ sectionRefs }) => {
             <p className="flex items-center mb-1">
               <MdLink className="mr-2 text-purple-500" />
               <a
-                href="https://www.iitr.ac.in/~ES/ppatifes"
+                href="https://iitr.ac.in/Departments/Earth%20Sciences%20Department/People/Faculty/Ravi%20Sharma.html"
                 className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -1284,7 +1284,7 @@ const MainPage = ({ sectionRefs }) => {
             <p className="flex items-center mb-1">
               <FaLinkedin className="mr-2 text-blue-600" />
               <a
-                href="https://www.linkedin.com/in/pitambar-pati-99b4a958"
+                href="https://www.linkedin.com/in/ravi-sharma-81011116"
                 className="text-blue-600 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -1331,7 +1331,7 @@ const MainPage = ({ sectionRefs }) => {
               >
                 LinkedIn Profile
               </a>
-            </p>
+            </p>            
           </div>
         </div>
       </section>

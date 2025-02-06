@@ -120,7 +120,7 @@ const Sidebar = ({ activeSection }) => {
               activeSection === "extraCurricular" ? "font-bold underline" : ""
             }`}
           >
-            Extra-Curricular
+            Sports and Community Participation
           </a>
         </li>
         <li>
