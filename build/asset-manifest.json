@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pvm/static/css/main.83ee54fc.css",
-    "main.js": "/pvm/static/js/main.ac7020c9.js",
+    "main.js": "/pvm/static/js/main.c45faed1.js",
     "static/media/2024_FRT Offer_Prahlada.pdf": "/pvm/static/media/2024_FRT Offer_Prahlada.bb749a130a07233b329a.pdf",
     "static/media/image3.png": "/pvm/static/media/image3.1b13cae3a0e1ba7e6aad.png",
     "static/media/i1.png": "/pvm/static/media/i1.6e334b0f1f9a04f38742.png",
     "static/media/I3.png": "/pvm/static/media/I3.5c529970e1ac077238f7.png",
     "static/media/I1.png": "/pvm/static/media/I1.e5614633f113c03fea1b.png",
     "static/media/smp_certificate.pdf": "/pvm/static/media/smp_certificate.5f73a5d844ee9d12936c.pdf",
-    "static/media/Prahlada_CV.pdf": "/pvm/static/media/Prahlada_CV.d6403f2696d282a0680d.pdf",
+    "static/media/Prahlada_CV.pdf": "/pvm/static/media/Prahlada_CV.8abe0dc3201dc73e34e9.pdf",
     "static/media/I2.png": "/pvm/static/media/I2.bf8a6c42c8ad44d971f6.png",
     "static/media/r4.png": "/pvm/static/media/r4.896c446ca86c6b912b75.png",
     "static/media/image4.png": "/pvm/static/media/image4.684878f50dee925e269d.png",
@@ -30,10 +30,10 @@
     "static/media/i3.png": "/pvm/static/media/i3.bb5637836b6fa7e02aaf.png",
     "index.html": "/pvm/index.html",
     "main.83ee54fc.css.map": "/pvm/static/css/main.83ee54fc.css.map",
-    "main.ac7020c9.js.map": "/pvm/static/js/main.ac7020c9.js.map"
+    "main.c45faed1.js.map": "/pvm/static/js/main.c45faed1.js.map"
   },
   "entrypoints": [
     "static/css/main.83ee54fc.css",
-    "static/js/main.ac7020c9.js"
+    "static/js/main.c45faed1.js"
   ]
 }
