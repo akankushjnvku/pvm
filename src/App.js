@@ -22,12 +22,14 @@ const App = () => {
     references: useRef(null),
     curriculum: useRef(null),
   };
+
   useEffect(() => {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
       threshold: 0.1,
     };
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -48,11 +50,23 @@ const App = () => {
       });
     };
   }, []);
+
   return (
-    <div className="flex min-h-screen p-5 bg-gray-200 h-screen gap-5">
-      <Sidebar activeSection={activeSection} />
-      <MainPage sectionRefs={sectionRefs} />
-      <Profile />
+    <div className="flex flex-col md:flex-row min-h-screen p-5 bg-gray-200 gap-5">
+      {/* Sidebar - Hidden on Mobile, 1/4 width on Desktop */}
+      <div className="hidden md:block md:w-1/4">
+        <Sidebar activeSection={activeSection} />
+      </div>
+
+      {/* Main Content - Takes full width on Mobile, 3/4 on Desktop */}
+      <div className="w-full md:w-3/4 flex-1">
+        <MainPage sectionRefs={sectionRefs} />
+      </div>
+
+      {/* Profile - Full width on Mobile, Adjusts on Desktop */}
+      <div className="w-full md:w-1/4">
+        <Profile />
+      </div>
     </div>
   );
 };

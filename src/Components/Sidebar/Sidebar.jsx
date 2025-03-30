@@ -1,160 +1,63 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Sidebar = ({ activeSection }) => {
-  return (
-    <div className="w-full md:w-60 bg-gray-800 text-white p-5 rounded-lg md:mb-0 shadow-lg">
-      <ul className="space-y-2">
-        <li>
-          <a
-            href="#about"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "about" ? "underline font-bold" : ""
-            }`}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            href="#education"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "education" ? "underline font-bold" : ""
-            }`}
-          >
-            Education
-          </a>
-        </li>
-        <li>
-          <a
-            href="#technicalSkills"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "technicalSkills" ? "underline font-bold" : ""
-            }`}
-          >
-            Technical Skills
-          </a>
-        </li>
-        <li>
-          <a
-            href="#researchExperience"
-            className={`block p-0.6 rounded hover:bg-gray-700 ${
-              activeSection === "researchExperience"
-                ? "font-bold underline"
-                : ""
-            }`}
-          >
-            Research Experience
-          </a>
-          <ul>
-            <li>
-              <a
-                href="#journalPapers"
-                className={`block p-0.4 ml-3 hover:bg-gray-600 rounded ${
-                  activeSection === "journalPapers" ? "font-bold underline" : ""
-                }`}
-              >
-                - Journal Papers
-              </a>
-            </li>
-            <li>
-              <a
-                href="#conferences"
-                className={`block p-0.4 ml-3 hover:bg-gray-600 rounded ${
-                  activeSection === "conferences" ? "font-bold underline" : ""
-                }`}
-              >
-                - Conferences
-              </a>
-            </li>
-            <li>
-              <a
-                href="#researchProjects"
-                className={`block p-0.4 ml-3 hover:bg-gray-600 rounded ${
-                  activeSection === "researchProjects"
-                    ? "font-bold underline"
-                    : ""
-                }`}
-              >
-                - Research Projects
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a
-            href="#achievements"
-            className={`block p-1 hover:bg-gray-700 rounded ${
-              activeSection === "achievements" ? "font-bold underline" : ""
-            }`}
-          >
-            Achievements
-          </a>
-        </li>
+  const [isOpen, setIsOpen] = useState(false);
 
-        <li>
-          <a
-            href="#courses"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "courses" ? "font-bold underline" : ""
-            }`}
-          >
-            Courses
-          </a>
-        </li>
-        <li>
-          <a
-            href="#teachingMentorshipExperience"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "teachingMentorshipExperience"
-                ? "font-bold underline"
-                : ""
-            }`}
-          >
-            Teaching/ Mentorship Experience
-          </a>
-        </li>
-        <li>
-          <a
-            href="#extraCurricular"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "extraCurricular" ? "font-bold underline" : ""
-            }`}
-          >
-            Sports and Community Participation
-          </a>
-        </li>
-        <li>
-          <a
-            href="#references"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "references" ? "font-bold underline" : ""
-            }`}
-          >
-            References
-          </a>
-        </li>
-        <li>
-          <a
-            href="#curriculum"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "curriculum" ? "font-bold underline" : ""
-            }`}
-          >
-            Curriculum Vitae
-          </a>
-        </li>
-        <li>
-          <a
-            href="#contact"
-            className={`block p-1 rounded hover:bg-gray-700 ${
-              activeSection === "contact" ? "font-bold underline" : ""
-            }`}
-          >
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div>
+  return (
+    <>
+      {/* Toggle Button for Mobile */}
+      <button
+        className="md:hidden fixed top-5 left-5 bg-gray-800 text-white p-2 rounded-lg z-50"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        ☰ Menu
+      </button>
+
+      {/* Sidebar - Visible on Desktop, Toggleable on Mobile */}
+      <div
+        className={`fixed inset-y-0 left-0 w-60 bg-gray-800 text-white p-5 rounded-r-lg shadow-lg transform ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        } transition-transform md:translate-x-0 md:relative md:w-60`}
+      >
+        <button
+          className="md:hidden absolute top-4 right-4 text-white"
+          onClick={() => setIsOpen(false)}
+        >
+          ✖ Close
+        </button>
+
+        <ul className="space-y-2 mt-10 md:mt-0">
+          {[
+            { id: "about", label: "About" },
+            { id: "education", label: "Education" },
+            { id: "technicalSkills", label: "Technical Skills" },
+            { id: "researchExperience", label: "Research Experience" },
+            { id: "journalPapers", label: "- Journal Papers", indent: true },
+            { id: "conferences", label: "- Conferences", indent: true },
+            { id: "researchProjects", label: "- Research Projects", indent: true },
+            { id: "achievements", label: "Achievements" },
+            { id: "courses", label: "Courses" },
+            { id: "teachingMentorshipExperience", label: "Teaching/Mentorship" },
+            { id: "extraCurricular", label: "Sports & Community" },
+            { id: "references", label: "References" },
+            { id: "curriculum", label: "Curriculum Vitae" },
+            { id: "contact", label: "Contact" },
+          ].map(({ id, label, indent }) => (
+            <li key={id} className={indent ? "ml-4" : ""}>
+              <a
+                href={`#${id}`}
+                className={`block w-full p-2 rounded hover:bg-gray-700 transition ${
+                  activeSection === id ? "font-bold underline" : ""
+                }`}
+                onClick={() => setIsOpen(false)} // Close sidebar on mobile after clicking
+              >
+                {label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 };
 
